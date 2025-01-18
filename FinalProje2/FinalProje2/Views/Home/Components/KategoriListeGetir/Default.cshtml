@@ -1,0 +1,9 @@
+﻿@model IEnumerable<FinalProje2.Models.Kategori>
+
+    <div class="list-group">
+        <button type="button" class="btn btn-secondary btn-sm bg-dark text-light">Kategoriler</button>
+        @foreach(var item in Model)
+        {
+        <li class="list-group-item list-group-item-action"><a class="text-decoration-none text-dark" href="/Home/KategoriDetay/@item.KategoriId">@item.KategoriAd</a></li>
+        }
+    </div>

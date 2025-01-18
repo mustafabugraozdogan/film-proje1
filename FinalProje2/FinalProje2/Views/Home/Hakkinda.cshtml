@@ -1,0 +1,170 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hakkımızda</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.7;
+            background-color: rgba(143, 137, 137, 0.684);
+            color: #343a40;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        main {
+            padding: 3rem;
+            max-width: 90%;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            margin: 20px;
+            box-sizing: border-box;
+        }
+
+        h1, h2, h3 {
+            font-weight: 600;
+            color: #212529;
+        }
+
+        .about-us {
+            margin-bottom: 2rem;
+        }
+
+        .features {
+            text-align: center;
+        }
+
+        .feature-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            grid-gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .feature {
+            background-color: rgba(143, 137, 137, 0.684);
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+            border: 1px solid #eee;
+        }
+
+        .feature:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 7px 10px rgba(0, 0, 0, 0.15);
+        }
+
+        .feature h3 {
+            margin-bottom: 1rem;
+        }
+
+        p {
+            margin-bottom: 1rem;
+        }
+
+        media (max-width: 768px) {
+            main {
+                padding: 2rem;
+                max-width: 95%;
+            }
+            .feature-list {
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            }
+        }
+        .nav ul{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.nav ul li{
+        list-style-type: none;
+}
+
+.nav a {
+    text-decoration: none;
+    border-radius: 10px;
+
+    color:white;
+    padding: 10px;
+    background-color: #212529;
+}
+    </style>
+</head>
+<body>
+    <main>
+        <div class="nav">
+        <ul>
+            <li>
+                <a href="/Default/Index/">Ana sayfa</a>
+            </li>
+        </ul>
+    </div>
+        <section class="about-us">
+            <h1>Hakkımızda</h1>
+            <p>
+                Film tutkunları olarak, sinema dünyasının büyülü atmosferini paylaşmak ve filmler üzerine keyifli sohbetler etmek için bu platformu oluşturduk. Amacımız, her türden film severin bir araya gelerek düşüncelerini özgürce ifade edebileceği, yeni filmler keşfedebileceği ve sinema deneyimini zenginleştirebileceği bir ortam sunmaktır.
+            </p>
+            <p>
+                Sitemizde, vizyondaki en yeni filmlerden kült klasiklere kadar geniş bir yelpazede film detaylarına ulaşabilir, diğer kullanıcıların yorumlarını okuyabilir ve kendi yorumlarınızı anonim olarak paylaşabilirsiniz. Kayıt olmanıza gerek yok, düşüncelerinizi anında iletebilirsiniz.
+            </p>
+            <p>
+                Film arşivi sürekli güncellenmekte ve yeni filmler eklenmektedir. Keşfet bölümümüz sayesinde, ilgi alanlarınıza uygun yeni yapımları kolayca bulabilirsiniz. Sinema dünyasına dair en güncel haberler ve gelişmeler de sitemizde yer almaktadır.
+            </p>
+            <p>
+                Siz de sinema tutkunlarının arasına katılın, filmler hakkında konuşmaya başlayın!
+            </p>
+        </section>
+
+        <section class="features">
+            <h2>Özelliklerimiz</h2>
+            <div class="feature-list">
+                <div class="feature">
+                    <h3>Geniş Film Arşivi</h3>
+                    <p>Vizyondaki ve geçmişteki birçok filme ait detaylı bilgiler.</p>
+                </div>
+                <div class="feature">
+                    <h3>Anonim Yorumlar</h3>
+                    <p>Kayıt olmadan, özgürce yorum yapabilme imkanı.</p>
+                </div>
+                <div class="feature">
+                    <h3>Yeni Film Keşfi</h3>
+                    <p>İlgi alanlarınıza göre önerilen yeni filmler.</p>
+                </div>
+                <div class="feature">
+                  <h3>Kullanıcı Dostu Arayüz</h3>
+                  <p>Kolay ve anlaşılır navigasyon.</p>
+              </div>
+              <div class="feature">
+                  <h3>Sürekli Güncellenen İçerik</h3>
+                  <p>En güncel sinema haberleri ve film bilgileri.</p>
+              </div>
+                <div class="feature">
+                    <h3>Detaylı Film İncelemeleri</h3>
+                    <p>Kullanıcıların filmler hakkında daha derinlemesine analizler ve yorumlar okuyabilmesi.</p>
+                </div>
+                <div class="feature">
+                    <h3>Türlere Göre Filtreleme</h3>
+                    <p>Aksiyon, komedi, dram gibi türlere göre film arama ve filtreleme.</p>
+                </div>
+                <div class="feature">
+                    <h3>Mobil Uyumlu Tasarım</h3>
+                    <p>Sitenin tüm cihazlarda (telefon, tablet, bilgisayar) sorunsuz çalışması.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

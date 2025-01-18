@@ -1,0 +1,188 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - FinalProje2</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <style>
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            height: 100vh;
+            width: 250px;
+            background: linear-gradient(135deg, black 0%, #2575fc 250%);
+            color: white;
+            position: fixed;
+            top: 0;
+            left: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            box-shadow: 4px 0 10px rgba(0, 0, 0, 0.2);
+            transition: width 0.3s;
+        }
+
+        .sidebar h2 {
+            text-align: center;
+            font-size: 24px;
+            margin-top: 20px;
+        }
+
+        .sidebar .icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 60px;
+            height: 60px;
+            margin: 20px auto;
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 50%;
+        }
+
+        .sidebar .menu-bottom a {
+            display: block;
+            padding: 15px 20px;
+            margin: 10px 15px;
+            text-decoration: none;
+            color: white;
+            border-radius: 8px;
+            font-size: 18px;
+            transition: all 0.3s;
+        }
+
+        .sidebar .menu-bottoma:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+            transform: translateX(10px);
+        }
+
+        .sidebar a.active {
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+
+        .sidebar .menu-bottom {
+            position: relative;
+            margin-bottom: 30px;
+        }
+
+        /* Sayfaya Git Button */
+        .sayfa-btn {
+            background-color: rgb(21, 20, 20);
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 20px auto;
+            display: block;
+            text-align: center;
+            transition: background-color 0.3s;
+            text-decoration: none;
+        }
+
+        .sayfa-btn:hover {
+            background-color: #218838;
+        }
+
+        /* Logout Button */
+        .logout-btn {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            background-color: rgb(175, 15, 15);
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            z-index: 1000;
+            transition: background-color 0.3s;
+            text-decoration:none;
+        }
+
+        .logout-btn:hover {
+            background-color: #c0392b;
+        }
+
+        /* Main Content */
+        .main-content {
+            margin-left: 270px;
+            padding:20px;
+            transition: margin-left 0.3s;
+        }
+
+        .category {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .category h2 {
+            color: #333;
+        }
+
+        .category p {
+            color: #666;
+        }
+
+        /* Responsive Design */
+        media (max-width: 768px) {
+            .sidebar {
+                width: 100%;
+                height: auto;
+                position: relative;
+            }
+
+            .main-content {
+                margin-left: 0;
+            }
+
+            .logout-btn {
+                position: fixed;
+                top: 10px;
+                right: 10px;
+                width: auto;
+            }
+        }
+
+        .menu-bottom i {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="menu-top">
+            <div class="icon"><i class="bi bi-person-fill" style="font-size: 30px; color: white;"></i></div>
+            <h2>Yönetim Paneli</h2>
+        </div>
+        <div class="menu-bottom">
+            <a href="/Film/Index/" class="active"><i class="bi bi-house"></i>Ana Sayfa</a>
+            <a href="/Film/Index/"><i class="bi bi-film"></i>Filmler</a>
+            <a href="/Kategori/Index/"><i class="bi bi-list-task"></i>Kategoriler</a>
+            <a href="/Yorum/Index/"><i class="bi bi-chat-square-text"></i>Yorumlar</a>
+            <a href="/İstatistikler/Index/"><i class="bi bi-bar-chart-fill"></i>İstatistikler</a>
+        </div>
+        <a class="sayfa-btn" href="/Default/Index/">Sayfaya Git</a>
+    </div>
+
+    <a class="logout-btn" href="/Giris/LogOut/">Çıkış Yap</a>
+
+    <div class="main-content">
+        @RenderBody()
+    </div>
+</body>
+</html>

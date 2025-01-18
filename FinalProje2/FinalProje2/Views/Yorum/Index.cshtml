@@ -1,0 +1,61 @@
+﻿@model List<FinalProje2.Models.Yorum>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Yorum Listesi</h1>
+<br />
+<div class="search-container">
+    <input type="text" id="searchInput" class="form-control" style="width: 250px; margin-bottom: 20px;" placeholder="Yorum Ara..." onkeyup="searchTable()">
+</div>
+<table class="table border-dark">
+    <tr>
+        <th>Yorum ID</th>
+        <th>Film Adı</th>
+        <th>Kullanıcı Adı</th>
+        <th>Yorum</th>
+        <th>Sil</th>
+    </tr>
+    @foreach (var x in Model)
+    {
+        <tr>
+            <td>@x.YorumId</td>
+            <td>@x.Film.FilmAd</td>
+            <td>@x.KullaniciAdi</td>
+            <td>@x.Icerik</td>
+            <td> <a href="/Yorum/YorumSil/@x.YorumId" class="btn btn-danger">Sil</a></td>
+        </tr>
+    }
+
+</table>
+
+<script>
+    function searchTable() {
+        var input = document.getElementById("searchInput");
+        var filter = input.value.toUpperCase();
+        var table = document.querySelector("table");
+        var tr = table.getElementsByTagName("tr");
+
+        for (var i = 1; i < tr.length; i++) {
+            var td = tr[i].getElementsByTagName("td");
+            var found = false;
+
+            for (var j = 0; j < td.length; j++) {
+                if (td[j]) {
+                    var textValue = td[j].textContent || td[j].innerText;
+                    if (textValue.toUpperCase().indexOf(filter) > -1) {
+                        found = true;
+                        break;
+                    }
+                }
+            }
+            if (found) {
+                tr[i].style.display = "";
+            } else {
+                tr[i].style.display = "none";
+            }
+        }
+    }
+</script>
+

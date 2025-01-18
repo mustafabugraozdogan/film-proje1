@@ -1,0 +1,17 @@
+﻿@model FinalProje2.Models.Kategori
+@{
+    ViewData["Title"] = "KategoriEkle";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Kategori Ekle</h1>
+<br/>
+@using(Html.BeginForm("KategoriEkle","Kategori",FormMethod.Post))
+{
+    @Html.LabelFor(x=>x.KategoriAd)
+    @Html.TextBoxFor(x=>x.KategoriAd,new { @class = "form-control"})
+    @Html.ValidationMessageFor(x=>x.KategoriAd,"",new { @style = "color:red"});
+    <br/>
+    <button class="btn btn-info">Kaydet</button>
+}
+

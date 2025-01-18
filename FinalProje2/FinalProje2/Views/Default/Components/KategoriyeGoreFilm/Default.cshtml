@@ -1,0 +1,25 @@
+﻿@model IEnumerable<FinalProje2.Models.Film>
+
+<h1 class=" text-center" style="letter-spacing: 5px;">FİLMLER</h1>
+<div class="movies" style="margin-top: 30px;">
+    <div class="row g-5">
+        @foreach (var item in Model.Take(6))
+        {
+            <div class="col-xl-3">
+                <div class="movie-card">
+                    <img src="~/img/@item.Afis" alt="Joker 2">
+                    <div class="card-body">
+                        <h6>@item.FilmAd</h6>
+                        <div class="card-info">
+                            <strong><span class="card-rating">IMDb: @item.FilmPuan</span></strong>
+                            <a class="btn" href="/Film/FilmDetay/@item.FilmId">Detay</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+
+
+    </div>
+    <a href="/Home/Index/"><button class="btn btn-dark d-block mx-auto mt-5">Tüm filmleri gör</button></a>
+</div>

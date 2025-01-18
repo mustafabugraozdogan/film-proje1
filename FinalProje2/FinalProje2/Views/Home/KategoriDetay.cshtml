@@ -1,0 +1,265 @@
+﻿
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ana Sayfa</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        body {
+            padding: 0 70px;
+            background-color: rgba(143, 137, 137, 0.684);
+        }
+
+        .movie-card {
+            width: 230px;
+            background-color: #1c1c1e;
+            color: #ffffff;
+            border-radius: 10px;
+            overflow: hidden;
+            font-family: Arial, sans-serif;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+            position: relative;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+            .movie-card:hover {
+                transform: scale(1.05);
+                box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+            }
+
+            .movie-card img {
+                width: 100%;
+                height: 310px;
+                border-radius: 10px 10px 0 0;
+            }
+
+            .movie-card .card-body {
+                padding: 10px;
+                background: rgba(0, 0, 0, 0.6);
+            }
+
+            .movie-card h6 {
+                text-align: center;
+                font-size: 1.1rem;
+            }
+
+            .movie-card .card-info {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .movie-card .card-rating {
+                background-color: #f3ce13;
+                color: black;
+                padding: 5px 5px;
+                border-radius: 5px;
+                font-size: 0.9rem;
+            }
+
+            .movie-card .btn {
+                background-color: #2c3e50;
+                color: white;
+                padding: 5px 20px;
+                font-size: 1rem;
+                border: none;
+                border-radius: 5px;
+                transition: background-color 0.3s, color 0.3s;
+            }
+
+                .movie-card .btn:hover {
+                    background-color: white;
+                    color: #2c3e50;
+                }
+
+            .movie-card .card-footer {
+                text-align: center;
+                font-size: 0.7rem;
+                background: rgba(0, 0, 0, 0.7);
+                padding: 5px;
+            }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/Default/Index">moviePhilosophy</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/Default/Index">Ana Sayfa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Home/Index">Filmler</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/RastgeleFilm/RandomFilm">Bugün ne izlesem?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Home/Hakkinda/">Hakkında</a>
+                        </li>
+                    </ul>
+                    <div class="right">
+                        <a href="/Giris/Index/"><button type="button" class="btn btn-secondary btn-sm"><i class="bi bi-person-fill"></i></button></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+<div id="content" class="content mt-5 pt-5">
+    <div class="row">
+        <div class="col-md-2 ">
+                <input type="text" id="search" class="form-control mb-4" placeholder="Film Ara...">
+            @await Component.InvokeAsync("KategoriListeGetir")
+            <div>
+                <button type="button" class="btn btn-secondary btn-sm bg-dark text-light mt-5 w-100">Son Yorumlar</button>
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Joker 2</h5>
+                                <p class="card-text">ilk film kadar büyük bir yankı uyandırmayabilir, ancak oyuncu performanslarıyla sinemaseverler için zevkli olabilir.</p>
+                                <p class="card-text"><small class="text-body-secondary">furkan</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Avatar</h5>
+                                <p class="card-text">Bence çok güzel bir filmdi. Özellikle görsel efektleri harikaydı.</p>
+                                <p class="card-text"><small class="text-body-secondary">mustafa</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">The Platform 2</h5>
+                                <p class="card-text">Görsel olarak etkileyici ve düşündürücü mesajlara sahip. Ancak, bazı izleyiciler hikayenin temposunun düşüklüğünden şikayet edebilir.</p>
+                                <p class="card-text"><small class="text-body-secondary">kaan</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3 bg-dark text-light" style="width: 210px; height: 355px;">
+                <button type="button" class="btn btn-secondary btn-sm bg-light text-dark w-100">Popüler Filmler</button>
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="~/img/joker.jpg" class=" m-3 " style="width: 50px; height: 50px; border-radius: 30px;" alt="...">
+                        <img src="~/img/thor.jpg" class="m-3" style="width: 50px; height: 50px; border-radius: 30px;" alt="...">
+                        <img src="~/img/thor.jpg" class=" m-3" style="width: 50px; height: 50px; border-radius: 30px;" alt="...">
+                        <img src="~/img/sp.jpg" class=" m-3" style="width: 50px; height: 50px; border-radius: 30px;" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <p class="mt-2 ">Avatar</p>
+                            <p class="mt-5 pt-3">Avatar</p>
+                            <p class="mt-5 pt-2">Thor Ragnarok</p>
+                            <p class="mt-5 pt-2">Spider-Man</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-10">
+                @await Component.InvokeAsync("KategoriyeGoreFilm", new { id = ViewBag.x })
+        </div>
+    </div>
+</div>
+    <footer>
+        <div class="row">
+            <div class="col-md-2">
+            </div>
+            <div class="col-md-10">
+                <div class="container bg-dark text-start mx-auto text-light py-4" style="margin: 50px 0; border-radius: 20px;">
+                    <div class="row">
+                        <div class="col">
+                            <h6>moviePhilosophy</h6>
+                            <hr>
+                            <h6>Hoş Geldiniz!</h6>
+                            <p>Film ve Dizi Tutkunları<br> İçin Bir Araya Geldik</p>
+                        </div>
+                        <div class="col">
+                            <h6>Menü</h6>
+                            <hr>
+                            <ul class="list-unstyled">
+                                <li><a href="/Default/Index" class="text-decoration-none text-light">Ana Sayfa</a></li>
+                                <li><a href="/Home/Index" class="text-decoration-none text-light">Filmler</a></li>
+                                <li><a href="/RastgeleFilm/RandomFilm" class="text-decoration-none text-light">Bugün ne izlesem?</a></li>
+                                <li><a href="/Home/Hakkinda/" class="text-decoration-none text-light">Hakkında</a></li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <h6>Kategoriler</h6>
+                            <hr>
+                            <ul class="list-unstyled">
+                                <li><a href="#" class="text-decoration-none text-light">Bilim Kurgu</a></li>
+                                <li><a href="#" class="text-decoration-none text-light">Korku</a></li>
+                                <li><a href="#" class="text-decoration-none text-light">Tarih</a></li>
+                                <li><a href="#" class="text-decoration-none text-light">Komedi</a></li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <h6>Sosyal Medya</h6>
+                            <hr>
+                            <div>
+                                <i class="bi bi-instagram m-2"></i>
+                                <i class="bi bi-twitter-x m-2"></i>
+                                <i class="bi bi-youtube m-2"></i>
+                                <i class="bi bi-facebook m-2"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="d-flex justify-content-between">
+                        <p>2024 moviePhilosophy All Rights Reserved.</p>
+                        <div>
+                            <span class="m-4">Terms of use</span>
+                            <span>Privacy Policy</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="up text-end fixed-bottom mb-5 fs-3 ">
+                <a href="#header" class="text-decoration-none text-dark"><i class="bi bi-arrow-up-square-fill"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script>
+        document.getElementById('search').addEventListener('input', function () {
+            var searchQuery = this.value.toLowerCase(); 
+            var movieCards = document.querySelectorAll('.movie-card'); 
+
+            movieCards.forEach(function (card) {
+                var title = card.getAttribute('data-title').toLowerCase(); 
+                var filmContainer = card.closest('.col-xl-3'); 
+
+               
+                if (title.includes(searchQuery)) {
+                    filmContainer.style.display = 'block';
+                } else {
+                    filmContainer.style.display = 'none'; 
+                }
+            });
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

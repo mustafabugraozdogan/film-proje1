@@ -1,0 +1,95 @@
+﻿
+@{
+    ViewData["Title"] = "Filmler";
+    Layout = "~/Views/Shared/_AnaLayout.cshtml";
+}
+
+<div id="content" class="content mt-5 pt-5">
+    <div class="row">
+        <div class="col-md-2 ">
+            <input type="text" id="search" class="form-control mb-4" placeholder="Film Ara...">
+            @await Component.InvokeAsync("KategoriListeGetir")
+            <div>
+                <button type="button" class="btn btn-secondary btn-sm bg-dark text-light mt-5 w-100">Son Yorumlar</button>
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Joker 2</h5>
+                                <p class="card-text">ilk film kadar büyük bir yankı uyandırmayabilir, ancak oyuncu performanslarıyla sinemaseverler için zevkli olabilir.</p>
+                                <p class="card-text"><small class="text-body-secondary">furkan</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Avatar</h5>
+                                <p class="card-text">Bence çok güzel bir filmdi. Özellikle görsel efektleri harikaydı.</p>
+                                <p class="card-text"><small class="text-body-secondary">mustafa</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">The Platform 2</h5>
+                                <p class="card-text">Görsel olarak etkileyici ve düşündürücü mesajlara sahip. Ancak, bazı izleyiciler hikayenin temposunun düşüklüğünden şikayet edebilir.</p>
+                                <p class="card-text"><small class="text-body-secondary">kaan</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3 bg-dark text-light" style="width: 210px; height: 355px;">
+                <button type="button" class="btn btn-secondary btn-sm bg-light text-dark w-100">Popüler Filmler</button>
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="~/img/joker.jpg" class=" m-3 " style="width: 50px; height: 50px; border-radius: 30px;" alt="...">
+                        <img src="~/img/thor.jpg" class="m-3" style="width: 50px; height: 50px; border-radius: 30px;" alt="...">
+                        <img src="~/img/thor.jpg" class=" m-3" style="width: 50px; height: 50px; border-radius: 30px;" alt="...">
+                        <img src="~/img/sp.jpg" class=" m-3" style="width: 50px; height: 50px; border-radius: 30px;" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <p class="mt-2 ">Avatar</p>
+                            <p class="mt-5 pt-3">Avatar</p>
+                            <p class="mt-5 pt-2">Thor Ragnarok</p>
+                            <p class="mt-5 pt-2">Spider-Man</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-10">
+            @await Component.InvokeAsync("FilmListeGetir")
+        </div>
+    </div>
+</div>
+
+<script>
+    document.getElementById('search').addEventListener('input', function () {
+        var searchQuery = this.value.toLowerCase(); // Arama metnini al
+        var movieCards = document.querySelectorAll('.movie-card'); // Tüm film kartlarını seç
+
+        movieCards.forEach(function (card) {
+            var title = card.getAttribute('data-title').toLowerCase(); // Film adını al
+            var filmContainer = card.closest('.col-xl-3'); // Film kartını en yakın konteynıra yerleştir
+
+            // Eğer arama metni film adını içeriyorsa, filme göster
+            if (title.includes(searchQuery)) {
+                filmContainer.style.display = 'block'; // Göster
+            } else {
+                filmContainer.style.display = 'none'; // Gizle
+            }
+        });
+    });
+</script>
+
+
+
+

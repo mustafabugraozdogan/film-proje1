@@ -1,0 +1,697 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FinalProje2.bundle.scp.css",
+      "PackagePath": "staticwebassets\\FinalProje2.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\0728c394-ad73-4450-9957-fb20abaf934d.jpg",
+      "PackagePath": "staticwebassets\\img\\0728c394-ad73-4450-9957-fb20abaf934d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\0b4595f4-83d2-4ce0-b313-7694871b0bf9.jpg",
+      "PackagePath": "staticwebassets\\img\\0b4595f4-83d2-4ce0-b313-7694871b0bf9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\0e4b1e05-e99e-4092-b011-02460ebb3118.jpg",
+      "PackagePath": "staticwebassets\\img\\0e4b1e05-e99e-4092-b011-02460ebb3118.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\11a6acce-d3aa-40ac-9d80-48495c5436a2.jpg",
+      "PackagePath": "staticwebassets\\img\\11a6acce-d3aa-40ac-9d80-48495c5436a2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\18a08868-f1c1-4db6-9456-6eaf76a75b37.jpg",
+      "PackagePath": "staticwebassets\\img\\18a08868-f1c1-4db6-9456-6eaf76a75b37.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\1a986fa7-e072-4569-9be9-d2fc3caac95b.jpg",
+      "PackagePath": "staticwebassets\\img\\1a986fa7-e072-4569-9be9-d2fc3caac95b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\1e4725bf-0f82-4fb1-b972-f1a965fca214.jpg",
+      "PackagePath": "staticwebassets\\img\\1e4725bf-0f82-4fb1-b972-f1a965fca214.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\1e753e0c-cce3-4e04-803d-dfb7629a44c5.jpg",
+      "PackagePath": "staticwebassets\\img\\1e753e0c-cce3-4e04-803d-dfb7629a44c5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\1e833158-8d5e-4a08-9cc8-b76fd532cdcb.jpg",
+      "PackagePath": "staticwebassets\\img\\1e833158-8d5e-4a08-9cc8-b76fd532cdcb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\1f5f9d6b-c1c7-464e-ae53-2a96a1ea2b1e.jpg",
+      "PackagePath": "staticwebassets\\img\\1f5f9d6b-c1c7-464e-ae53-2a96a1ea2b1e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\20c8d3d5-9ad9-456b-808b-c2dd1848c846.jpg",
+      "PackagePath": "staticwebassets\\img\\20c8d3d5-9ad9-456b-808b-c2dd1848c846.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\25166373-8b3e-4130-a75a-208ac4aa7a38.jpg",
+      "PackagePath": "staticwebassets\\img\\25166373-8b3e-4130-a75a-208ac4aa7a38.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\29f61dd6-d7a3-41df-9fa6-6b9d94eb623d.jpg",
+      "PackagePath": "staticwebassets\\img\\29f61dd6-d7a3-41df-9fa6-6b9d94eb623d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\2a38d529-b58f-4b90-8ba5-0a54bf2c8daa.jpg",
+      "PackagePath": "staticwebassets\\img\\2a38d529-b58f-4b90-8ba5-0a54bf2c8daa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\33252bc6-d154-4eb0-8930-037c155c0d1d.jpg",
+      "PackagePath": "staticwebassets\\img\\33252bc6-d154-4eb0-8930-037c155c0d1d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\333fb732-2bf4-461e-b59b-dfc5d1118db3.jpg",
+      "PackagePath": "staticwebassets\\img\\333fb732-2bf4-461e-b59b-dfc5d1118db3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\34c737eb-cc2d-482a-ba89-798c80328c6a.jpg",
+      "PackagePath": "staticwebassets\\img\\34c737eb-cc2d-482a-ba89-798c80328c6a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\35d68dd8-5297-4b69-af71-676cac8eb010.jpg",
+      "PackagePath": "staticwebassets\\img\\35d68dd8-5297-4b69-af71-676cac8eb010.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\3b39ea7b-446d-4bc7-90b7-08ded771d156.jpg",
+      "PackagePath": "staticwebassets\\img\\3b39ea7b-446d-4bc7-90b7-08ded771d156.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\3e3e5767-e3f8-4fcf-8b77-3bbf91ce8de4.jpg",
+      "PackagePath": "staticwebassets\\img\\3e3e5767-e3f8-4fcf-8b77-3bbf91ce8de4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\410e240b-cb06-4f48-86ae-2f40b7f4f5ea.jpg",
+      "PackagePath": "staticwebassets\\img\\410e240b-cb06-4f48-86ae-2f40b7f4f5ea.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\42292bd7-ed8f-440f-b036-73163f59c919.jpg",
+      "PackagePath": "staticwebassets\\img\\42292bd7-ed8f-440f-b036-73163f59c919.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\4330628e-030f-4669-a35d-ecf46299bfaa.jpg",
+      "PackagePath": "staticwebassets\\img\\4330628e-030f-4669-a35d-ecf46299bfaa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\47b2d87d-7b13-4ebc-8c28-7ab907cf4283.jpg",
+      "PackagePath": "staticwebassets\\img\\47b2d87d-7b13-4ebc-8c28-7ab907cf4283.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\47eebff3-f93c-4817-9c54-2db69865a001.jpg",
+      "PackagePath": "staticwebassets\\img\\47eebff3-f93c-4817-9c54-2db69865a001.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\4c005929-963b-48dd-bd3e-8005f459c30b.jpg",
+      "PackagePath": "staticwebassets\\img\\4c005929-963b-48dd-bd3e-8005f459c30b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\4c09ebeb-0dd7-4dde-a726-30365534339c.jpg",
+      "PackagePath": "staticwebassets\\img\\4c09ebeb-0dd7-4dde-a726-30365534339c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\4d84f6b8-70d6-476c-83c5-cfc9fbb164ec.jpg",
+      "PackagePath": "staticwebassets\\img\\4d84f6b8-70d6-476c-83c5-cfc9fbb164ec.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\4da5f1c0-1d17-4440-abe8-b78d790e7e82.jpg",
+      "PackagePath": "staticwebassets\\img\\4da5f1c0-1d17-4440-abe8-b78d790e7e82.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\50024690-a25d-4d5c-89fd-4d6516c7e1e2.jpg",
+      "PackagePath": "staticwebassets\\img\\50024690-a25d-4d5c-89fd-4d6516c7e1e2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\50f18b05-9cd9-4846-8155-6f7854e6f44e.jpg",
+      "PackagePath": "staticwebassets\\img\\50f18b05-9cd9-4846-8155-6f7854e6f44e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\51925636-0fda-4819-8c34-04837f0dc72f.jpg",
+      "PackagePath": "staticwebassets\\img\\51925636-0fda-4819-8c34-04837f0dc72f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\5436120b-1e6c-4f7d-8423-93cb48727cfe.jpg",
+      "PackagePath": "staticwebassets\\img\\5436120b-1e6c-4f7d-8423-93cb48727cfe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\58306ed1-4110-4845-a620-2fafd9569017.jpg",
+      "PackagePath": "staticwebassets\\img\\58306ed1-4110-4845-a620-2fafd9569017.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\5a492929-0c16-42ba-b241-d586c6b1fd99.jpg",
+      "PackagePath": "staticwebassets\\img\\5a492929-0c16-42ba-b241-d586c6b1fd99.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\5a646378-9eb8-4b7f-8837-0149b518a0b7.jpg",
+      "PackagePath": "staticwebassets\\img\\5a646378-9eb8-4b7f-8837-0149b518a0b7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\5ca50ca4-394c-49a5-99c2-ea27b326434e.jpg",
+      "PackagePath": "staticwebassets\\img\\5ca50ca4-394c-49a5-99c2-ea27b326434e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\5cf3b5e9-330f-43db-9448-ad15bb43428f.jpg",
+      "PackagePath": "staticwebassets\\img\\5cf3b5e9-330f-43db-9448-ad15bb43428f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\607942ac-4e61-4e46-a69c-67a11be8c448.jpg",
+      "PackagePath": "staticwebassets\\img\\607942ac-4e61-4e46-a69c-67a11be8c448.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\6453418e-50d3-45bd-962e-7941e87fd5b6.jpg",
+      "PackagePath": "staticwebassets\\img\\6453418e-50d3-45bd-962e-7941e87fd5b6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\64ee2a36-67c7-4ed2-9dbd-aa67c589ca4f.jpg",
+      "PackagePath": "staticwebassets\\img\\64ee2a36-67c7-4ed2-9dbd-aa67c589ca4f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\65591a2c-e2bd-4098-97c6-24ffcf28d157.jpg",
+      "PackagePath": "staticwebassets\\img\\65591a2c-e2bd-4098-97c6-24ffcf28d157.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\69f80839-cae4-40a1-a947-42cd8b62b792.jpg",
+      "PackagePath": "staticwebassets\\img\\69f80839-cae4-40a1-a947-42cd8b62b792.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\7134f110-b40d-49aa-9dff-52680f7ac475.jpg",
+      "PackagePath": "staticwebassets\\img\\7134f110-b40d-49aa-9dff-52680f7ac475.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\7887161e-1319-470d-b52b-9723269eff6c.jpg",
+      "PackagePath": "staticwebassets\\img\\7887161e-1319-470d-b52b-9723269eff6c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\8096be4e-bbc9-427b-8d66-2553de7dc712.jpg",
+      "PackagePath": "staticwebassets\\img\\8096be4e-bbc9-427b-8d66-2553de7dc712.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\80b0c333-9423-44a0-a8e0-3f45811b5e59.jpg",
+      "PackagePath": "staticwebassets\\img\\80b0c333-9423-44a0-a8e0-3f45811b5e59.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\81cfd0ba-0d02-409b-a8d6-d43fdd47c053.jpg",
+      "PackagePath": "staticwebassets\\img\\81cfd0ba-0d02-409b-a8d6-d43fdd47c053.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\8a9bcd45-0464-4c89-836a-26702eef9c1e.jpg",
+      "PackagePath": "staticwebassets\\img\\8a9bcd45-0464-4c89-836a-26702eef9c1e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\8c16de6f-0564-46b5-8e0e-12531eeb728f.jpg",
+      "PackagePath": "staticwebassets\\img\\8c16de6f-0564-46b5-8e0e-12531eeb728f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\8d22cd1b-f959-4390-8fea-742d35c4f993.jpg",
+      "PackagePath": "staticwebassets\\img\\8d22cd1b-f959-4390-8fea-742d35c4f993.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\8ecb9a79-0513-44db-8317-eb9297db8344.jpg",
+      "PackagePath": "staticwebassets\\img\\8ecb9a79-0513-44db-8317-eb9297db8344.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\903d3e28-dba4-46ea-a0c0-40a155f6ea5d.jpg",
+      "PackagePath": "staticwebassets\\img\\903d3e28-dba4-46ea-a0c0-40a155f6ea5d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\964a605e-dee6-4de3-8e6b-09e364fc1d78.jpg",
+      "PackagePath": "staticwebassets\\img\\964a605e-dee6-4de3-8e6b-09e364fc1d78.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\990ad16b-9783-43b6-8b2e-e5bc3aff822d.jpg",
+      "PackagePath": "staticwebassets\\img\\990ad16b-9783-43b6-8b2e-e5bc3aff822d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\9b28d7d5-7b41-423e-bc37-b715b55e408c.jpg",
+      "PackagePath": "staticwebassets\\img\\9b28d7d5-7b41-423e-bc37-b715b55e408c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\9bee21b2-9829-4ba8-a8b0-8f7dc9b34aaf.jpg",
+      "PackagePath": "staticwebassets\\img\\9bee21b2-9829-4ba8-a8b0-8f7dc9b34aaf.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\9d074bea-5a2f-424d-bc6b-533003436011.jpg",
+      "PackagePath": "staticwebassets\\img\\9d074bea-5a2f-424d-bc6b-533003436011.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\9e55b014-f52a-4b77-bf10-7b6c8552dcea.jpg",
+      "PackagePath": "staticwebassets\\img\\9e55b014-f52a-4b77-bf10-7b6c8552dcea.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\9ef3ad40-7b7a-4b71-86b5-6ea324b21fdc.jpg",
+      "PackagePath": "staticwebassets\\img\\9ef3ad40-7b7a-4b71-86b5-6ea324b21fdc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\a0f7e90c-1328-4b41-878e-794e48089b61.jpg",
+      "PackagePath": "staticwebassets\\img\\a0f7e90c-1328-4b41-878e-794e48089b61.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\a3053e1e-b771-47f5-8250-9ad587e4add8.jpg",
+      "PackagePath": "staticwebassets\\img\\a3053e1e-b771-47f5-8250-9ad587e4add8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\a41b0843-9ea1-49cb-a930-0cd9f8701595.jpg",
+      "PackagePath": "staticwebassets\\img\\a41b0843-9ea1-49cb-a930-0cd9f8701595.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\a65c1eec-40af-452b-b4b7-7b1fe6a1e754.jpg",
+      "PackagePath": "staticwebassets\\img\\a65c1eec-40af-452b-b4b7-7b1fe6a1e754.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\a6b5704c-4737-419d-9b55-cfc97621bbcb.jpg",
+      "PackagePath": "staticwebassets\\img\\a6b5704c-4737-419d-9b55-cfc97621bbcb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\a80c2ef5-0ae4-45b0-8f29-a7c6c9ab3874.jpg",
+      "PackagePath": "staticwebassets\\img\\a80c2ef5-0ae4-45b0-8f29-a7c6c9ab3874.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\a9259724-258a-4ffc-b56e-4e4df9a1d48d.jpg",
+      "PackagePath": "staticwebassets\\img\\a9259724-258a-4ffc-b56e-4e4df9a1d48d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\a96f08eb-8fc8-4ee4-8729-bc276e221801.jpg",
+      "PackagePath": "staticwebassets\\img\\a96f08eb-8fc8-4ee4-8729-bc276e221801.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\aa1ac1c3-6521-4506-93ce-1b1e71f5fd55.jpg",
+      "PackagePath": "staticwebassets\\img\\aa1ac1c3-6521-4506-93ce-1b1e71f5fd55.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\aa8edde8-3717-44b0-93e7-4016674f5bbe.jpg",
+      "PackagePath": "staticwebassets\\img\\aa8edde8-3717-44b0-93e7-4016674f5bbe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\ac3bcae9-326c-4cb0-b53b-76cefd12414a.jpg",
+      "PackagePath": "staticwebassets\\img\\ac3bcae9-326c-4cb0-b53b-76cefd12414a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\afe62cae-8907-4467-ad23-73f5be542144.jpg",
+      "PackagePath": "staticwebassets\\img\\afe62cae-8907-4467-ad23-73f5be542144.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\b0a219fe-e4e2-47f3-8399-d448c20988c9.jpg",
+      "PackagePath": "staticwebassets\\img\\b0a219fe-e4e2-47f3-8399-d448c20988c9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\b1be55c6-80b6-4ec7-ad8c-5115a3eed5a3.jpg",
+      "PackagePath": "staticwebassets\\img\\b1be55c6-80b6-4ec7-ad8c-5115a3eed5a3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\b2887c78-2f8a-4108-b814-01b899c28416.jpg",
+      "PackagePath": "staticwebassets\\img\\b2887c78-2f8a-4108-b814-01b899c28416.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\bdc3a94a-6c15-4a98-a5d8-428dec3c8745.jpg",
+      "PackagePath": "staticwebassets\\img\\bdc3a94a-6c15-4a98-a5d8-428dec3c8745.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\bdcbb0a8-142e-4615-b422-fecefbc161ff.jpg",
+      "PackagePath": "staticwebassets\\img\\bdcbb0a8-142e-4615-b422-fecefbc161ff.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\bf4140ef-161c-482d-b065-911d5ed72c4e.jpg",
+      "PackagePath": "staticwebassets\\img\\bf4140ef-161c-482d-b065-911d5ed72c4e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\bg4.jpg",
+      "PackagePath": "staticwebassets\\img\\bg4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\c28b550d-75a4-4240-9a21-4d5730a730c8.jpg",
+      "PackagePath": "staticwebassets\\img\\c28b550d-75a4-4240-9a21-4d5730a730c8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\c9a25f96-90fd-4836-b3d6-310f97556eb1.jpg",
+      "PackagePath": "staticwebassets\\img\\c9a25f96-90fd-4836-b3d6-310f97556eb1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\cr.jpg",
+      "PackagePath": "staticwebassets\\img\\cr.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\d2466d21-fbf5-41ae-8dd8-d216f737ebac.jpg",
+      "PackagePath": "staticwebassets\\img\\d2466d21-fbf5-41ae-8dd8-d216f737ebac.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\d2635118-eadc-4d3b-b888-3b1ea5288abc.jpg",
+      "PackagePath": "staticwebassets\\img\\d2635118-eadc-4d3b-b888-3b1ea5288abc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\d2af66c0-16e6-4f06-99b3-90eaecbf27ab.jpg",
+      "PackagePath": "staticwebassets\\img\\d2af66c0-16e6-4f06-99b3-90eaecbf27ab.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\d30940be-4642-4343-87a6-2750ee53cd5b.jpg",
+      "PackagePath": "staticwebassets\\img\\d30940be-4642-4343-87a6-2750ee53cd5b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\d9f0ac29-7b0d-49af-8c0c-49a0f0ab1743.jpg",
+      "PackagePath": "staticwebassets\\img\\d9f0ac29-7b0d-49af-8c0c-49a0f0ab1743.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\dbd60a4f-c9ab-4307-938c-3628c0cb042a.jpg",
+      "PackagePath": "staticwebassets\\img\\dbd60a4f-c9ab-4307-938c-3628c0cb042a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\dd695475-beef-4824-ad98-8bde723b15a2.jpg",
+      "PackagePath": "staticwebassets\\img\\dd695475-beef-4824-ad98-8bde723b15a2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\dda271be-2006-4cbe-8dd6-79c747e88f30.jpg",
+      "PackagePath": "staticwebassets\\img\\dda271be-2006-4cbe-8dd6-79c747e88f30.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\e0ee027a-f024-4cec-9fe7-6b11442aaa1e.jpg",
+      "PackagePath": "staticwebassets\\img\\e0ee027a-f024-4cec-9fe7-6b11442aaa1e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\e6ff4654-a278-4f6b-baaf-debda5b989f8.jpg",
+      "PackagePath": "staticwebassets\\img\\e6ff4654-a278-4f6b-baaf-debda5b989f8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\e740f15e-3d0b-4353-8814-2d36534e613f.jpg",
+      "PackagePath": "staticwebassets\\img\\e740f15e-3d0b-4353-8814-2d36534e613f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\e7d44664-d055-493c-a1a7-c899a2d19090.jpg",
+      "PackagePath": "staticwebassets\\img\\e7d44664-d055-493c-a1a7-c899a2d19090.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\e9530638-b0b8-45da-ab5e-f0cdbd9eccd2.jpg",
+      "PackagePath": "staticwebassets\\img\\e9530638-b0b8-45da-ab5e-f0cdbd9eccd2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\eac16c92-e21c-48be-89ca-4d2409bb35f3.jpg",
+      "PackagePath": "staticwebassets\\img\\eac16c92-e21c-48be-89ca-4d2409bb35f3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\eba03e80-ce15-44db-96fd-3eb8f854bde9.jpg",
+      "PackagePath": "staticwebassets\\img\\eba03e80-ce15-44db-96fd-3eb8f854bde9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\ef511ec3-3480-415f-ad82-1b9efc7899a8.jpg",
+      "PackagePath": "staticwebassets\\img\\ef511ec3-3480-415f-ad82-1b9efc7899a8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\extra.jpg",
+      "PackagePath": "staticwebassets\\img\\extra.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\f31b7312-72f8-401c-acd4-03064a806d46.jpg",
+      "PackagePath": "staticwebassets\\img\\f31b7312-72f8-401c-acd4-03064a806d46.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\f51a9cfd-b340-4fa5-8d0f-31ff108edebb.jpg",
+      "PackagePath": "staticwebassets\\img\\f51a9cfd-b340-4fa5-8d0f-31ff108edebb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\fbca3688-1316-4167-9dbc-5664f6995492.jpg",
+      "PackagePath": "staticwebassets\\img\\fbca3688-1316-4167-9dbc-5664f6995492.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\joker.jpg",
+      "PackagePath": "staticwebassets\\img\\joker.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\pl.jpg",
+      "PackagePath": "staticwebassets\\img\\pl.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\pl2.jpg",
+      "PackagePath": "staticwebassets\\img\\pl2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\sp.jpg",
+      "PackagePath": "staticwebassets\\img\\sp.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\thor.jpg",
+      "PackagePath": "staticwebassets\\img\\thor.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\img\\zfr.jpg",
+      "PackagePath": "staticwebassets\\img\\zfr.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\FinalProje2\\FinalProje2\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.FinalProje2.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.FinalProje2.props",
+      "PackagePath": "build\\FinalProje2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.FinalProje2.props",
+      "PackagePath": "buildMultiTargeting\\FinalProje2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.FinalProje2.props",
+      "PackagePath": "buildTransitive\\FinalProje2.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

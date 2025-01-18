@@ -1,0 +1,28 @@
+﻿@model List<FinalProje2.Models.Kategori>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Kategori Listesi</h1>
+<br/>
+<table class="table border-dark">
+    <tr>
+        <th>ID</th>
+        <th>Kategori Adı</th>
+        <th>Sil</th>
+        <th>Güncelle</th>
+    @foreach (var y in Model)
+    {
+        <tr>
+            <td>@y.KategoriId</td>
+            <td>@y.KategoriAd</td>
+            <td> <a href="/Kategori/KategoriSil/@y.KategoriId" class="btn btn-danger">Sil</a></td>
+            <td> <a href="/Kategori/KategoriGetir/@y.KategoriId" class="btn btn-success">Güncelle</a></td>
+        </tr>
+    }
+
+</table>
+<a href="/Kategori/KategoriEkle/" class="btn btn-primary">Yeni Kategori</a>
+

@@ -1,0 +1,71 @@
+﻿@model List<FinalProje2.Models.Film>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Film Listesi</h1>
+<div class="search-container">
+    <input type="text" id="searchInput" class="form-control" style="width: 250px; margin-bottom: 20px;" placeholder="Film Ara..." onkeyup="searchTable()">
+</div>
+<br />
+<table item="filmtable" class="table border-dark">
+    <tr>
+        <th>ID</th>
+        <th>Film Adı</th>
+        <th>IMDB Puanı</th>
+        <th>Kategori</th>
+        <th>Yıl</th>
+        <th>Sil</th>
+        <th>Güncelle</th>
+    </tr>
+    @foreach (var x in Model)
+    {
+        <tr>
+            <td>@x.FilmId</td>
+            <td>@x.FilmAd</td>
+            <td>@x.FilmPuan</td>
+            <td>@x.Kategori.KategoriAd</td>
+            <td>@x.Yil</td>
+            <td> <a href="/Film/FilmSil/@x.FilmId" class="btn btn-danger">Sil</a></td>
+            <td> <a href="/Film/FilmGetir/@x.FilmId" class="btn btn-success">Güncelle</a></td>
+        </tr>
+    }
+
+</table>
+
+<script>
+    function searchTable() {
+        var input = document.getElementById("searchInput");
+        var filter = input.value.toUpperCase();
+        var table = document.querySelector("table");
+        var tr = table.getElementsByTagName("tr");
+
+        for (var i = 1; i < tr.length; i++) {
+            var td = tr[i].getElementsByTagName("td");
+            var found = false;
+
+            for (var j = 0; j < td.length; j++) {
+                if (td[j]) {
+                    var textValue = td[j].textContent || td[j].innerText;
+                    if (textValue.toUpperCase().indexOf(filter) > -1) {
+                        found = true;
+                        break;
+                    }
+                }
+            }
+            if (found) {
+                tr[i].style.display = "";
+            } else {
+                tr[i].style.display = "none";
+            }
+        }
+    }
+</script>
+
+
+
+<a href="/Film/FilmEkle/" class="btn btn-primary">Yeni Film</a>
+
+

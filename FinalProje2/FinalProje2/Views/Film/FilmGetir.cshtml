@@ -1,0 +1,34 @@
+﻿@model FinalProje2.Models.Film
+@{
+    ViewData["Title"] = "FilmGetir";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Film Ekle</h1>
+<br />
+@using (Html.BeginForm("FilmGuncelle", "Film", FormMethod.Post))
+{
+    @Html.Label("Film Id")
+    @Html.TextBoxFor(x => x.FilmId, new { @class = "form-control" })
+    <br />
+    @Html.Label("Film Adı")
+    @Html.TextBoxFor(x => x.FilmAd, new { @class = "form-control" })
+    <br />
+    @Html.Label("Film Puanı")
+    @Html.TextBoxFor(x => x.FilmPuan, new { @class = "form-control" })
+    <br />
+    @Html.Label("Film Kategorisi")
+    @Html.DropDownListFor(x => x.KategoriId, (List<SelectListItem>)ViewBag.v1, new { @class = "form-control" })
+    <br />
+    @Html.Label("Film Yılı")
+    @Html.TextBoxFor(x => x.Yil, new { @class = "form-control" })
+    <br />
+    @Html.Label("Film Afişi")
+    @Html.TextBoxFor(x => x.Afis, new { @class = "form-control" })
+    <br />
+    @Html.Label("Film Detay")
+    @Html.TextAreaFor(x => x.Detay, new { @class = "form-control" })
+    <br />
+    <button class="btn btn-primary">Kaydet</button>
+}
+

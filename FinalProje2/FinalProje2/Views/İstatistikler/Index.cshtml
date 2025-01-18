@@ -1,0 +1,160 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İstatistik Kartı</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .stat-card {
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            width: 350px;
+            text-align: center;
+            transition: transform 0.2s;
+            margin: 10px; /* Kartlar arasında boşluk */
+        }
+
+            .stat-card:hover {
+                transform: translateY(-5px);
+            }
+
+        .stat-card-icon {
+            background-color: #007bff;
+            border-radius: 50%;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 60px;
+            height: 60px;
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+
+        .stat-card-title {
+            margin: 0;
+            font-size: 20px;
+            color: #333;
+        }
+
+        .stat-card-number {
+            margin: 5px 0 0;
+            font-size: 28px;
+            color: #007bff;
+            font-weight: bold;
+        }
+
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 100%;
+            margin: 0;
+        }
+
+        #film {
+            background-color: gold;
+        }
+
+        #kat {
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="row">
+            <div class="stat-card">
+                <div id="film" class="stat-card-icon">
+                    <i class="bi bi-film"></i>
+                </div>
+                <div class="stat-card-content">
+                    <h3 class="stat-card-title">Toplam Film Sayısı</h3>
+                    <p class="stat-card-number">@ViewBag.Toplamfilm</p>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div id="kat" class="stat-card-icon">
+                    <i class="bi bi-layout-text-sidebar"></i>
+                </div>
+                <div class="stat-card-content">
+                    <h3 class="stat-card-title">Toplam Kategori Sayısı</h3>
+                    <p class="stat-card-number">@ViewBag.Toplamkategori</p>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-card-icon">
+                    <i class="bi bi-chat-left-text"></i>
+                </div>
+                <div class="stat-card-content">
+                    <h3 class="stat-card-title">Toplam Yorum Sayısı</h3>
+                    <p class="stat-card-number">@ViewBag.toplamyorum</p>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-card-icon">
+                    <i class="bi bi-chat-left-text"></i>
+                </div>
+                <div class="stat-card-content">
+                    <h3 class="stat-card-title">En yüksek puanlı film</h3>
+                    <p class="stat-card-number">@ViewBag.FilmAdi</p>
+                    <p class="stat-card-number">@ViewBag.ImdbPuani</p>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-card-icon">
+                    <i class="bi bi-chat-left-text"></i>
+                </div>
+                <div class="stat-card-content">
+                    <h3 class="stat-card-title">En çok yorum alan film</h3>
+                    <p class="stat-card-number">@ViewBag.EnCokYorumAlanFilm</p>
+                    <p class="stat-card-number">@ViewBag.YorumSayisi</p>
+
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-card-icon">
+                    <i class="bi bi-chat-left-text"></i>
+                </div>
+                <div class="stat-card-content">
+                    <h3 class="stat-card-title">En çok bulunan kategori</h3>
+                    <p class="stat-card-number">@ViewBag.EnCokFilmOlanKategori</p>
+                    <p class="stat-card-number">@ViewBag.FilmSayisi</p>
+
+                </div>
+            </div>
+            
+        </div>
+            
+    </div>
+</body>
+</html>
+
+

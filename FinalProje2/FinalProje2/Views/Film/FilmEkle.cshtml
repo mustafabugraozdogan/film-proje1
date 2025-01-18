@@ -1,0 +1,32 @@
+﻿@model FinalProje2.Models.resimekle
+
+@{
+    ViewData["Title"] = "FilmEkle";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Film Ekle</h1>
+<br />
+
+<form class="form-group" asp-action="FilmEkle" asp-controller="Film" method="post" enctype="multipart/form-data">
+    @Html.Label("Film Adı")
+    @Html.TextBoxFor(x => x.FilmAd, new { @class = "form-control" })
+    <br />
+    @Html.Label("Film Puanı")
+    @Html.TextBoxFor(x => x.FilmPuan, new { @class = "form-control" })
+    <br />
+    @Html.Label("Film Kategorisi")
+    @Html.DropDownListFor(x=>x.KategoriId,(List<SelectListItem>)ViewBag.v1,new { @class = "form-control"})
+    <br />
+    @Html.Label("Film Yılı")
+    @Html.TextBoxFor(x => x.Yil, new { @class = "form-control" })
+    <br />
+    @Html.Label("Film Afişi")
+    <input type="file" name="Afis" />
+    <br />
+    <br />
+    @Html.Label("Film Detay")
+    @Html.TextAreaFor(x => x.Detay, new { @class = "form-control" })
+    <br />
+    <button class="btn btn-primary">Kaydet</button>
+</form>
