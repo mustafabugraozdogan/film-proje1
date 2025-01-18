@@ -1,21 +1,21 @@
 # film-proje1
- Web Tabanlı Final - Mustafa Buğra Özdoğan - 132130014
+## Web Tabanlı Final - Mustafa Buğra Özdoğan - 132130014
 
 Bu proje Web Tabanlı Programlama dersi için yapılmıştır.
 
-Film Yorumlama ve Keşif Sitesi - MoviePhilosophy
+## Film Yorumlama ve Keşif Sitesi - MoviePhilosophy
 
-Proje Hakkında:
+## Proje Hakkında:
 
 Bu proje, ASP.NET Core MVC tabanlı C# dili ile yazılmış bir film yorumlama ve keşif platformudur. Film tutkunları, bu platformda bir araya gelerek sinema dünyasının derinliklerine dalabilir, filmler hakkında düşüncelerini ve duygularını paylaşabilir, başkalarının yorumlarını okuyarak farklı bakış açıları kazanabilir ve kendi film favorilerini belirleyebilirler.
 
-Amaç:
+## Amaç:
 
 Film severleri bir araya getirerek, film değerlendirme ve keşif sürecini keyifli ve interaktif bir hale getirmektir. Kullanıcılar, film izleme deneyimlerini paylaşarak diğer film tutkunlarının keşif yolculuklarına katkıda bulunabilir. Aynı zamanda, başkalarının yorumları sayesinde daha önce izlemedikleri filmler hakkında bilgi sahibi olabilir ve keşif sürecini zenginleştirebilirler.
 
-Özellikler:
+## Özellikler:
 
-Film Arama ve Listeleme:
+# Film Arama ve Listeleme:
 
 Kullanıcılar, geniş film arşivi içinden filmleri arayabilir.
 
@@ -24,7 +24,7 @@ Arama işlemi film adı ve kategori bazında yapılabilir.
 Filmler, türlerine (örneğin: aksiyon, drama, komedi) göre kategorize edilmiştir ve bu kategorilere göre listeleme yapılabilir.
 
 
-Film Detay Sayfası:
+# Film Detay Sayfası:
 
 Her film için ayrı bir detay sayfası bulunmaktadır.
 
@@ -33,7 +33,7 @@ Bu sayfada filmin konusu, IMDb puanı, çıkış yılı gibi detaylı bilgiler y
 Kullanıcılar, bu sayfada film hakkında yorum yapabilirler.
 
 
-Yorum Ekleme ve Görüntüleme:
+# Yorum Ekleme ve Görüntüleme:
 
 Kullanıcılar, her film hakkında yorum ekleyebilir.
 
@@ -43,7 +43,7 @@ Diğer kullanıcılar, bu yorumları görüntüleyebilir ve film hakkında farkl
 
 
 
-Admin Paneli:
+# Admin Paneli:
 
 Film Yönetimi: Adminler, kategori ve filmleri ekleyebilir, silebilir ve güncelleyebilir.
 
@@ -52,14 +52,14 @@ Yorum Yönetimi: Adminler, kullanıcı yorumlarını silebilir.
 İstatistikler: Adminler, en yüksek puanlı filmleri ve toplam film sayısını içeren istatistikleri görüntüleyebilir.
 
 
-Bugün Ne İzlesem? Sayfası:
+# Bugün Ne İzlesem? Sayfası:
 
 Kullanıcıların şansına göre veritabanından rastgele bir film öneren sayfa.
 
 Kullanıcılar, bu sayede keşif sürecini daha eğlenceli hale getirebilirler.
 
 
-Kullanılan Teknolojiler:
+# Kullanılan Teknolojiler:
 
 ASP.NET Core MVC: Projenin backend yapısı için kullanılmıştır, esnek ve güçlü bir mimari sağlar.
 
