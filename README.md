@@ -76,3 +76,17 @@ C#: Proje boyunca kullanılan ana programlama dilidir, hem backend hem de fronte
 CRUD İşlemleri: Veritabanında Create, Read, Update, Delete (Oluşturma, Okuma, Güncelleme, Silme) işlemlerinin gerçekleştirilmesini sağlar.
 
 LINQ Sorguları: Veritabanı işlemlerinde güçlü ve esnek sorgulamalar gerçekleştirilmesini sağlar.
+
+# Resimler
+![Ekran görüntüsü 2025-01-16 222559](https://github.com/user-attachments/assets/9e27ed1d-369f-4cf7-acf6-ce412663d1f9)
+![Ekran görüntüsü 2025-01-16 222426](https://github.com/user-attachments/assets/d2a700a8-1bdc-40d3-91d3-6c4869ac6efa)
+![Ekran görüntüsü 2025-01-16 222346](https://github.com/user-attachments/assets/218ae7ab-4041-414f-b9a7-2bf34a48c47a)
+![Ekran görüntüsü 2025-01-16 222008](https://github.com/user-attachments/assets/8acd900d-57b0-45db-97ee-c7a0a09c9fad)
+![Ekran görüntüsü 2025-01-16 221940](https://github.com/user-attachments/assets/0f9aa25f-9cde-4966-be0e-a94bdd88e89c)
+![Ekran görüntüsü 2025-01-16 221734](https://github.com/user-attachments/assets/e2a53407-2770-4afd-9629-793e6b30589d)
+![Ekran görüntüsü 2025-01-16 221530](https://github.com/user-attachments/assets/c32f6931-02f8-4479-bcc7-f71e8e6dc336)
+![Ekran görüntüsü 2025-01-16 221409](https://github.com/user-attachments/assets/93e2ef41-7a16-4610-980d-7f40b8b7fae4)
+![Ekran görüntüsü 2025-01-16 221337](https://github.com/user-attachments/assets/6a222ece-4303-4698-8754-0db0933737c2)
+![Ekran görüntüsü 2025-01-16 221138](https://github.com/user-attachments/assets/60b068c1-8355-431b-a7d8-eb834dc903a3)
+![Ekran görüntüsü 2025-01-16 220515](https://github.com/user-attachments/assets/25d108cb-5923-4ccc-a472-405acc24e55d)
+
