@@ -4,6 +4,7 @@
 Bu proje Web Tabanlı Programlama dersi için yapılmıştır.
 
 ## Film Yorumlama ve Keşif Sitesi - MoviePhilosophy
+# Youtube video linki : https://youtu.be/a8aHq5pdIr0?si=UG5F6eiyzqpAMbgV
 
 ## Proje Hakkında:
 
